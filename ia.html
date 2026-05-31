@@ -771,8 +771,7 @@
     /* ── RESPONSIVE ── */
     @media (max-width: 860px) {
       .nav-links { display: none; }
-      .nav-inner { grid-template-columns: 1fr auto; }
-      .nav-right { display: none; }
+      .nav-inner { grid-template-columns: auto 1fr auto; }
       .sobre-grid, .processo-inner { grid-template-columns: 1fr; gap: 48px; }
       .sobre-left { position: static; }
       .case-row, .case-row.reverse { grid-template-columns: 1fr; direction: ltr; }
@@ -842,6 +841,17 @@
     </div>
   </nav>
 
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="cases.html">Cases</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="como-funciona.html">Processo</a>
+    <a href="motion.html">Motion</a>
+    <a href="ia.html">I.A</a>
+    <a href="mailto:contato.galdinomotion@gmail.com">Falar sobre um projeto</a>
+  </div>
+
   <section class="page-hero">
     <div class="container">
       <p class="page-eyebrow">Inteligência Artificial</p>
@@ -871,13 +881,13 @@
           </div>
           <div class="ia-videos-grid">
             <div class="ia-video-wrap">
-              <video controls playsinline>
+              <video controls playsinline poster="ia-cases/heineken/heineken-arte-final-poster.jpg">
                 <source src="ia-cases/heineken/heineken-arte-final.mp4" type="video/mp4">
               </video>
               <p class="ia-video-label">Arte final</p>
             </div>
             <div class="ia-video-wrap">
-              <video controls playsinline>
+              <video controls playsinline poster="ia-cases/heineken/heineken-web-poster.jpg">
                 <source src="ia-cases/heineken/heineken-web.mp4" type="video/mp4">
               </video>
               <p class="ia-video-label">Versão web</p>
@@ -887,7 +897,7 @@
           <div class="ia-bastidores-body">
             <div class="ia-videos-grid single">
               <div class="ia-video-wrap">
-                <video controls playsinline>
+                <video controls playsinline poster="ia-cases/heineken/heineken-bastidor-poster.jpg">
                   <source src="ia-cases/heineken/heineken-bastidor.mp4" type="video/mp4">
                 </video>
                 <p class="ia-video-label">Bastidor — processo de geração</p>
@@ -918,13 +928,13 @@
           </div>
           <div class="ia-videos-grid">
             <div class="ia-video-wrap">
-              <video controls playsinline>
+              <video poster="ia-cases/nike/nike-teaser-poster.jpg" controls playsinline>
                 <source src="ia-cases/nike/nike-teaser-web.mp4" type="video/mp4">
               </video>
               <p class="ia-video-label">Teaser</p>
             </div>
             <div class="ia-video-wrap">
-              <video controls playsinline>
+              <video poster="ia-cases/nike/nike-filme-poster.jpg" controls playsinline>
                 <source src="ia-cases/nike/nike-filme-web.mp4" type="video/mp4">
               </video>
               <p class="ia-video-label">Filme completo</p>
@@ -951,13 +961,13 @@
           </div>
           <div class="ia-videos-grid">
             <div class="ia-video-wrap">
-              <video controls playsinline>
+              <video poster="ia-cases/legado/legado-teaser-poster.jpg" controls playsinline>
                 <source src="ia-cases/legado/legado-teaser-web.mp4" type="video/mp4">
               </video>
               <p class="ia-video-label">Teaser</p>
             </div>
             <div class="ia-video-wrap">
-              <video controls playsinline>
+              <video poster="ia-cases/legado/legado-filme-poster.jpg" controls playsinline>
                 <source src="ia-cases/legado/legado-filme-web.mp4" type="video/mp4">
               </video>
               <p class="ia-video-label">Filme completo</p>
@@ -967,25 +977,25 @@
           <div class="ia-bastidores-body">
             <div class="ia-videos-grid">
               <div class="ia-video-wrap">
-                <video controls playsinline>
+                <video poster="ia-cases/legado/legado-bastidor01-poster.jpg" controls playsinline>
                   <source src="ia-cases/legado/legado-bastidor-01.mp4" type="video/mp4">
                 </video>
                 <p class="ia-video-label">Bastidor 01</p>
               </div>
               <div class="ia-video-wrap">
-                <video controls playsinline>
+                <video poster="ia-cases/legado/legado-bastidor01-poster.jpg" controls playsinline>
                   <source src="ia-cases/legado/legado-bastidor-02.mp4" type="video/mp4">
                 </video>
                 <p class="ia-video-label">Bastidor 02</p>
               </div>
               <div class="ia-video-wrap">
-                <video controls playsinline>
+                <video poster="ia-cases/legado/legado-gpt01-poster.jpg" controls playsinline>
                   <source src="ia-cases/legado/legado-tela-gpt-01.mp4" type="video/mp4">
                 </video>
                 <p class="ia-video-label">Processo — ChatGPT 01</p>
               </div>
               <div class="ia-video-wrap">
-                <video controls playsinline>
+                <video poster="ia-cases/legado/legado-gpt02-poster.jpg" controls playsinline>
                   <source src="ia-cases/legado/legado-tela-gpt-02.mp4" type="video/mp4">
                 </video>
                 <p class="ia-video-label">Processo — ChatGPT 02</p>

@@ -771,8 +771,7 @@
     /* ── RESPONSIVE ── */
     @media (max-width: 860px) {
       .nav-links { display: none; }
-      .nav-inner { grid-template-columns: 1fr auto; }
-      .nav-right { display: none; }
+      .nav-inner { grid-template-columns: auto 1fr auto; }
       .sobre-grid, .processo-inner { grid-template-columns: 1fr; gap: 48px; }
       .sobre-left { position: static; }
       .case-row, .case-row.reverse { grid-template-columns: 1fr; direction: ltr; }
@@ -821,6 +820,17 @@
       </div>
     </div>
   </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="cases.html">Cases</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="como-funciona.html">Processo</a>
+    <a href="motion.html">Motion</a>
+    <a href="ia.html">I.A</a>
+    <a href="mailto:contato.galdinomotion@gmail.com">Falar sobre um projeto</a>
+  </div>
 
   <!-- HERO -->
   <section id="hero">
